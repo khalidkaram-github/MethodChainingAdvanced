@@ -8,10 +8,10 @@
             var number = 4;
             var result = MathOperations.Double(MathOperations.Square(MathOperations.Increment(number)));
 
-            var resultAsExtention = number.Increment().Square().Double();
+            var resultAsExtension = number.Increment().Square().Double();
 
             Console.WriteLine(result);
-            Console.WriteLine(resultAsExtention);
+            Console.WriteLine(resultAsExtension);
         }
     }
     static class MathOperations
