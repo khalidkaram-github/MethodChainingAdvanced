@@ -11,7 +11,7 @@
             var resultAsExtention = number.Increment().Square().Double();
 
             Console.WriteLine(result);
-            Console.WriteLine(result);
+            Console.WriteLine(resultAsExtention);
         }
     }
     static class MathOperations
